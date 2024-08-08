@@ -7,13 +7,13 @@ Library     Browser
 ${url}                      https://www.amazon.com.br/
 ${inputBuscar}              id=twotabsearchtextbox
 ${echoDot5}                 xpath=//span[@class='a-size-base-plus a-color-base a-text-normal'][contains(.,'Echo Dot 5ª geração ')]
-${echoStudio}                  xpath=//span[@class='a-size-base-plus a-color-base a-text-normal'][contains(.,'Echo Studio | O som mais extraordinário')]
+${echoStudio}               xpath=//span[@class='a-size-base-plus a-color-base a-text-normal'][contains(.,'Echo Studio | O som mais extraordinário')]
 ${echoShow15}               xpath=//span[@class='a-size-base-plus a-color-base a-text-normal'][contains(.,'Echo Show 15: Smart Display')]
 ${btnBuscar}                id=nav-search-submit-button
 ${btnAdicionarAoCarrinho}   id=add-to-cart-button
 ${btnCarrinho}              id=nav-cart-count-container
 ${verificarEchoDot5}        xpath=//span[@class='a-truncate-cut'][contains(.,'Echo Dot 5ª geração')]
-${verificarEchoStudio}         xpath=//span[@class='a-truncate-cut'][contains(.,'Echo Studio | O som mais extraordinário')]
+${verificarEchoStudio}      xpath=//span[@class='a-truncate-cut'][contains(.,'Echo Studio | O som mais extraordinário')]
 ${verificarEchoShow15}      xpath=//span[@class='a-truncate-cut'][contains(.,'Echo Show 15: Smart Display')]
 
 *** Test Cases ***
